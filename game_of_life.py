@@ -77,14 +77,3 @@ if __name__ == '__main__':
     iteration = 0
 
     main()
-
-# 4. Napisz program "Conway's Game of Life" (https://playgameoflife.com/info).  
-# Założenia:
-#   - wielkość mapy: (100, 100)  
-#   - komórki pojawiają się względem punktu (50, 50)  
-#   - komórki, które wychodzą poza obszar umierają  
-# Kryteria akceptacji:  
-#   - wizualizacja, z możliwą zmianą czasu wyświetlania pojedyńczego "dnia życia" komórek  
-#   - funkcją, która generuje różne rozmieszczenia komórek i uruchamia symulację  
-#   - czas życia kolonii oraz ustawienie początkowe są zapisywane w pliku, gdzie każda iteracja symulacji j jest kolejnym wierszem, a ustawienie początkowe i czas życia kolonii kolumnami  
-#   - zawierać interfejs graficzny (z użyciem matplotlib) 

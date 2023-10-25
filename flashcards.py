@@ -148,27 +148,3 @@ def exit_game():
 
 if __name__ == "__main__":
     main()
-
-
-#  Napisz program "Fiszki", który zadaje użytkownikowi pytania, przyjmuje odpowiedź, a następnie sprawdza poprawność podanej odpowiedzi.
-
-# Must:
-    # 1. Wyświetlać instrukcję obsługi po uruchomieniu a także na żądanie użytownika (np. po wpisaniu :help)
-    # 2. Umożliwiać wyjście z programu (np. po wpisaniu :quit)
-    # 3. W pętli wyświetlać kolejno pytania i słuchać odpowiedzi użytkownika.
-    # 4. Wyświetlać poprawność odpowiedzi
-    # 5. Wczytywać bazę pytań i odpowiedzi z pliku .json
-
-# Should:
-    # 1. Czyśćić ekran po każdym pytaniu
-    # 2. Zliczać poprawne i błędne odpowiedzi
-    # 3. Wyświetlać obecny wynik użytkownika
-
-# Could:
-    # 1. Zapisywać błędne odpowiedzi w pliku tymczasowym i umożliwiać jego załadowanie
-    # 2. Umożliwiać wyświetlenie możliwych do załadowania plików
-    # 3. Umożliwiać wczytanie pliku bez modyfikowania kodu (np. po wpisaniu komendy :load)
-    # 4. Uznawać za poprawne odpowiedzi, które są odpowiednio podobne do wzorca (np. z użyciem biblioteki jellyfish i funkcji jaro_distance)
-    # 5. Zapisywać informacje o dynamice uczenia się użytkownika przy każdym uruchomieniu
-    # 6. Wyświetlać zebrane informacje w formie wykresu
-    # 7. Używać ramek danych
